@@ -1,4 +1,8 @@
 #!/bin/bash
+##
+## kit string lib
+## @author : Kimmy Leo
+##
 
 ##
 ## strlen : calc the length of the string.
