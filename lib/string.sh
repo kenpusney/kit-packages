@@ -4,6 +4,7 @@
 ## @author : Kimmy Leo
 ##
 
+load_lib "error"
 ##
 ## strlen : calc the length of the string.
 ## @usage : strlen <string>

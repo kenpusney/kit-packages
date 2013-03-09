@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ##
-## kit github libs
+## kit github lib
 ## @author : Kimmy Leo<kenpusney@gmail.com>
 ## @require : `git` && `curl`
 ##
@@ -25,5 +25,4 @@ gh_raw(){
     fi
     echo "https://raw.github.com/$user/$repo/$branch/"
 }
-
 
