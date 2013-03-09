@@ -6,4 +6,4 @@ do
     [ -d $packdir ] && cp -rf $packdir ~/.kit
 done
 
-cp packages ~/.kit
+cp github.cfg ~/.kit
