@@ -74,8 +74,8 @@ remove_conf() {
         case $1 in
             "all" )
                 echo "Removing all configurations ..."
-                cd .. && rm -rf conf
-                mkdir conf && cd conf && touch konf.lst
+                cd .. && rm -rf configs
+                mkdir configs && cd configs && touch konf.lst
                 echo "done!"  ;;
             * )
                 echo "Removing \`$cfg\` configuration ..."
