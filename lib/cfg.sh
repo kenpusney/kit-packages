@@ -4,7 +4,7 @@
 ## kit cfg lib
 ## @author : Kimmy Leo<kenpusney@gmail.com>
 ## @require : `sed`
-##ls
+##
 
 load_lib "error"
 
