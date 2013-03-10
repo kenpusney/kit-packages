@@ -3,8 +3,8 @@
 uxa_curdir=`pwd`
 
 cd $curdir
-
-for file in `ls`
+[ $# -gt 0 ] && ext="$@" || ext=""
+for file in `ls $ext`
 do
     chmod -x $file
 done
