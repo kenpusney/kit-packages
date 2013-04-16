@@ -2,7 +2,7 @@
 
 xa_curdir=`pwd`
 
-cd $curdir
+cd $CURDIR
 [ $# -gt 0 ] && ext="$@" || ext=""
 for file in `ls $ext`
 do

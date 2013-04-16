@@ -14,6 +14,6 @@ case $1 in
         ;;
     *   )
         [ -e $1 ] || m4 -Ilib $1
-        [ -e "$curdir/$1" ] || m4 -Ilib "$curdir/$1"
+        [ -e "$CURDIR/$1" ] || m4 -Ilib "$CURDIR/$1"
         ;;
 esac
