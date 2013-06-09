@@ -7,7 +7,7 @@ cd $CURDIR
 for file in `ls $ext`
 do
 ## FIXME: error if directories
-    chmod -x $file
+    [ -d $file ] || chmod -x $file
 done
 
 cd $uxa_curdir
